@@ -3,7 +3,7 @@ const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)')
 
 botaoMostrarProjetos.addEventListener('click', () => {
     mostrarMaisProjetos();
-
+    alert('voce clicou')
     esconderBotao();
 });
 
