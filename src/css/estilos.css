@@ -218,6 +218,14 @@ body {
     opacity: 1;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0; /* Ajuste conforme necessário */
+}
+
 .projetos .btn-mostrar-projetos {
     background: none;
     border: 1px solid #fff;
@@ -227,7 +235,6 @@ body {
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
