@@ -171,6 +171,12 @@ body {
     transition: transform 0.3s;
 }
 
+.projetos .projeto a h3 {
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+}
+
 .projetos .projeto a img {
     width: 100%;
     height: auto;
