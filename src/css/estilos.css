@@ -272,6 +272,10 @@ body {
     filter: drop-shadow(0 0 5px rgba(69, 132, 182, 1.5));
 }
 
+.text-colored-blue {
+    color: #4584b6;
+}
+
 .icon-border img {
     filter: drop-shadow(0 0 5px rgba(225, 222, 87, 0.8));
     transition: 1s;
