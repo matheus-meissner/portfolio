@@ -232,11 +232,13 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #9443d8;
-    transition: 0.3s;
+    background-color: #4584b6;
+    color: #ffde57;
+    border: 1px solid #ffde57;
 }
 
 .projetos .btn-mostrar-projetos.remover {
