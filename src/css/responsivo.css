@@ -1,3 +1,163 @@
+@media(max-width: 768px) {
+    /* HEADER */
+    .cabecalho {
+        padding-bottom: 0;
+    }
+    .cabecalho .logo {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .cabecalho .menu li a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    /* HOME */
+    .home {
+        gap: 15px;
+        margin-bottom: 8px;
+    }
+    .home .informacoes h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .home .informacoes p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .home .redes-sociais {
+        display: flex;
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        gap: 20px;
+        padding: 0;
+        margin-bottom: 32px;
+    }
+    .home .container-foto {
+        width: 300px; /* Ajuste a largura conforme necessário */
+        height: 300px; /* A altura deve ser igual à largura para garantir que fique redonda */
+        overflow: hidden;
+        position: relative;
+    }
+    .home .container-foto img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Isso garante que a imagem preencha o contêiner sem distorcer */
+        position: absolute; /* Permite o uso de transform */
+        top: 0;
+        left: 0;
+        transform: translateY(6%); /* Ajuste o valor conforme necessário para mover a imagem */
+    }
+    /* PROJETOS */
+    .projetos {
+        padding: 30px;
+    }
+    .projetos .title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    aside {
+        margin-bottom: 40px;
+    }
+    aside .aside-button {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    aside .aside-button .icones {
+        justify-content: center;
+    }
+    aside .aside-button .icones .img-web {
+        margin-right: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .cabecalho .menu li a {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .home {
+        gap: 15px;
+        margin-bottom: 8px;
+    }
+    .home .informacoes h1 {
+        margin-bottom: 48px;
+        font-weight: 600;
+    }
+    .home .informacoes p {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .home .redes-sociais {
+        display: flex;
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        gap: 30px;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+    /* PROJETOS */
+    .row {
+        align-items: center;
+        justify-content: center;
+    }
+    .projetos {
+        padding: 30px;
+    }
+
+    .projetos .title {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .projetos .container-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Espaçamento entre os projetos */
+        margin-bottom: 20px;
+    }
+
+    .projetos .projeto {
+        display: none;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    aside {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    aside .aside-button {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 397px; /* Ajusta a largura dos botões */
+    }
+
+    aside .aside-button .icones {
+        justify-content: center;
+        display: flex;
+        gap: 10px; /* Espaçamento entre os ícones */
+    }
+
+    aside .aside-button .icones .img-web {
+        margin-right: 0; /* Remove a margem à direita para centralizar os ícones */
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1280px) {
     .cabecalho {
         padding: 30px;
@@ -18,23 +178,5 @@
 
     .projetos .container-projetos {
         padding: 0 30px;
-    }
-}
-
-@media(max-width: 425px) {
-    .home .informacoes h1 {
-        font-size: 30px;
-    }
-
-    .home .informacoes p {
-        font-size: 16px;
-    }
-
-    .home .container-foto img {
-        max-width: 320px;
-    }
-
-    .projetos {
-        padding: 30px;
     }
 }

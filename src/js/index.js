@@ -16,16 +16,22 @@ function mostrarMaisProjetos() {
     });
 }
 
-/*
-- Objetivo 1 - quando o usuário clicar no botão de mostrar mais deve abrir os projetos que estão escondidos no html;
+function adjustAsideClass() {
+    const asideElement = document.getElementById('aside');
+    const minWidth = 769;
+    const maxWidth = 1023;
+    const currentWidth = window.innerWidth;
 
-Passo 1 - pegar o botão mostrar mais no JS pra poder verificar quando o usuário clicar em cima dele;
+    if (currentWidth >= minWidth && currentWidth <= maxWidth) {
+        asideElement.classList.remove('col-md-2');
+    } else {
+        // Adiciona a classe de volta caso a largura não esteja no intervalo especificado
+        asideElement.classList.add('col-md-2');
+    }
+}
 
-Passo 2 - identificar o clique no botão;
+// Executa a função ao carregar a página
+window.addEventListener('load', adjustAsideClass);
 
-Passo 3 - adicionar a classe ativo nos projetos escondidos;
-
-- Objetivo 2 - esconder o botão de mostrar mais;
-
-Passo 1 - pegar o botão e esconder ele *;
-*/
+// Executa a função ao redimensionar a janela
+window.addEventListener('resize', adjustAsideClass);
