@@ -149,6 +149,55 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .cabecalho .logo {
+        width: 70px;
+        height: 70px;
+        line-height: 65px;
+        font-size: 30px;
+    }
+    .cabecalho .menu li a {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .home {
+        margin-bottom: 8px;
+        min-height: calc(90vh - 120px);
+    }
+    .home .informacoes h1 {
+        margin-top: 32px;
+        margin-bottom: 70px;
+        font-weight: 600;
+    }
+    .home .informacoes p {
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .home .redes-sociais {
+        display: flex;
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        gap: 30px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    /* PROJETOS */
+    .projetos .title {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    aside .aside-button {
+        padding: 10px;
+        height: 70px;
+        width: 100%; /* Ajusta a largura dos botões */
+    }
+
+    aside .aside-button .icones {
+        justify-content: center;
+        display: flex;
+        gap: 1px; /* Espaçamento entre os ícones */
+    }
+}
 
 
 
@@ -157,8 +206,7 @@
 
 
 
-
-@media(max-width: 1280px) {
+@media(max-width: 3000px) {
     .cabecalho {
         padding: 30px;
     }
