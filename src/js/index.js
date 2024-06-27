@@ -18,7 +18,7 @@ function mostrarMaisProjetos() {
 
 function adjustAsideClass() {
     const asideElement = document.getElementById('aside');
-    const minWidth = 769;
+    const minWidth = 641;
     const maxWidth = 1023;
     const currentWidth = window.innerWidth;
 
