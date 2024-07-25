@@ -255,7 +255,7 @@ body {
 /* TAB BOTAO */
 
 .web-icons,
-.python-icons {
+.python-icons{
     display: flex;
     justify-content: space-between;
     align-items: center;
