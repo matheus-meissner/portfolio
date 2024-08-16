@@ -261,6 +261,16 @@ body {
     align-items: center;
 }
 
+.react-icons {
+    display: none;
+    align-items: center;
+}
+
+.react-icons img {
+    height: 40px;
+    margin: 0 5px 0 5px;
+}
+
 .web-icons img {
     height: 40px;
 }
