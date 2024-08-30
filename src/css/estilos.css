@@ -300,6 +300,9 @@ body {
 .text-colored-blue {
     color: #4584b6;
 }
+.text-colored-red {
+    color: #da3b3b;
+}
 
 .icon-border img {
     filter: drop-shadow(0 0 5px rgba(225, 222, 87, 0.8));
