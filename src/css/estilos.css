@@ -126,6 +126,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    transform: scale(2) translateY(-60px) translateX(5px); /* Aumenta o tamanho da imagem em 20% */
 }
 
 .home .foto.sombra-interna {
@@ -281,15 +282,15 @@ body {
 }
 
 .nav-cardapio .nav-link.active {
-    background-color: #ffde57;
+    background-color: #4584b6;
 }
 
 .nav-cardapio .nav-link.active .icon-border img {
-    filter: drop-shadow(0 0 5px rgba(69, 132, 182, 1.5));
+    filter: drop-shadow(0 0 5px rgba(255, 222, 87, 1.5));
 }
 
 .nav-cardapio .nav-link:hover .icon-border img {
-    filter: drop-shadow(0 0 5px rgba(69, 132, 182, 1.5));
+    filter: drop-shadow(0 0 5px rgba(255, 222, 87, 1.5));
 }
 
 .text-colored {
